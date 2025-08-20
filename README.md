@@ -1,3 +1,23 @@
+## ✅ Reproducible Workflow Setup Checklist
+
+This checklist ensures a clean, documented, and reproducible data analysis workflow.
+
+### 📁 Project Structure
+- [x] Create a clear folder layout:
+  - `notebooks/` – Jupyter notebooks
+  - `data/` – Raw and processed datasets
+  - `utils/` – Custom helper functions
+  - `exports/` – Final outputs (PDFs, charts, etc.)
+- [x] Add a `README.md` with setup instructions and project overview
+- [x] Include a `.gitignore` to exclude temp files and caches
+
+### 🧪 Environment Setup
+- [x] Create `environment.yml` with all dependencies
+- [x] Verify environment creation with:
+  ```bash
+  conda env create -f environment.yml
+  conda activate kortu
+
 ## 🧹 Project Cleanup: .gitignore Added
 
 To improve reproducibility and keep the repository clean, a `.gitignore` file was added in [Pull Request #1](https://github.com/Stone11-coder/ai-data-course-env/pull/1). This file excludes:
