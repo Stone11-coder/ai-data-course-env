@@ -1,3 +1,11 @@
+## 🔧 Quick Setup Instructions
+
+To recreate the environment:
+
+```bash
+conda env create -f environment.yml
+conda activate kortu
+
 # Insights from my AI-Powered Data Analysis Course
 
 ## Lab Module 2: Understanding and Implementing Data Analysis Strategies
