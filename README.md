@@ -1,3 +1,14 @@
+## 🧹 Project Cleanup: .gitignore Added
+
+To improve reproducibility and keep the repository clean, a `.gitignore` file was added in [Pull Request #1](https://github.com/Stone11-coder/ai-data-course-env/pull/1). This file excludes:
+
+- `__pycache__/` – Python bytecode cache
+- `.env` – Environment variable files
+- `.ipynb_checkpoints/` – Jupyter notebook autosaves
+- `.DS_Store`, `Thumbs.db` – OS-generated clutter
+
+This ensures that only relevant code and documentation are tracked, making collaboration and future reuse smoother.
+
 ## 🔧 Quick Setup Instructions
 
 To recreate the environment:
